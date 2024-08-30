@@ -1,0 +1,22 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -radix decimal -radixshowbase 1 /Bin_2_BCD_TestBench/Data_Input
+add wave -noupdate -radix hexadecimal -childformat {{{/Bin_2_BCD_TestBench/Data_Output[27]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[26]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[25]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[24]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[23]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[22]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[21]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[20]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[19]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[18]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[17]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[16]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[15]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[14]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[13]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[12]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[11]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[10]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[9]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[8]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[7]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[6]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[5]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[4]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[3]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[2]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[1]} -radix hexadecimal} {{/Bin_2_BCD_TestBench/Data_Output[0]} -radix hexadecimal}} -radixshowbase 1 -subitemconfig {{/Bin_2_BCD_TestBench/Data_Output[27]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[26]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[25]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[24]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[23]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[22]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[21]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[20]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[19]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[18]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[17]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[16]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[15]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[14]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[13]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[12]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[11]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[10]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[9]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[8]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[7]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[6]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[5]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[4]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[3]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[2]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[1]} {-height 21 -radix hexadecimal} {/Bin_2_BCD_TestBench/Data_Output[0]} {-height 21 -radix hexadecimal}} /Bin_2_BCD_TestBench/Data_Output
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {5 ps} 0}
+quietly wave cursor active 1
+configure wave -namecolwidth 314
+configure wave -valuecolwidth 100
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ns
+update
+WaveRestoreZoom {2 ps} {30 ps}
